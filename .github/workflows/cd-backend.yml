@@ -18,7 +18,6 @@ jobs:
           context: sgcmapi/
           push: true
           tags: ghcr.io/marcosvini753/sgcmapi:latest
-          # tags: ghcr.io/${{toLowerCase(github.repository_owner)}}/sgcmapi:latest
   deploy: 
     needs: build-push
     runs-on: ubuntu-latest
